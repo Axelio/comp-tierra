@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Composición de la Tierra</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <script src="../js/jquery-1.7.2.min.js"></script>	
+    <script src="../js/easing.js" type="text/javascript"></script>
+    <script src="../js/jquery.scrollTo-1.4.2-min.js" type="text/javascript"></script>
+    <script>
+    
+		$(document).ready(function() {
+			
+			$("#parrafo2").click(function(){
+				$("#contenedor").stop(true, true).animate({"opacity":".2"})
+				$("#placas").stop(true, true).fadeIn('slow');
+			});
+			
+			$("#parrafo4").click(function(){
+				$("#contenedor").stop(true, true).animate({"opacity":".2"})
+				$("#maremoto").stop(true, true).fadeIn('slow');
+			});
+			
+			$("#parrafo5").click(function(){
+				$("#contenedor").stop(true, true).animate({"opacity":".2"})
+				$("#terremoto").stop(true, true).fadeIn('slow');
+			});
+			
+			$("#parrafo3").click(function(){
+				$("#concepplaca").stop(true, true).slideToggle('slow');
+			});
+				
+			$("#cierrame").click(function(){
+				$("#contenedor").stop(true, true).animate({"opacity":"1"})
+				$("#placas").stop(true, true).fadeOut('slow');
+			});
+			
+			$("#cierrame2").click(function(){
+				$("#contenedor").stop(true, true).animate({"opacity":"1"})
+				$("#maremoto").stop(true, true).fadeOut('slow');
+			});
+			
+			$("#cierrame3").click(function(){
+				$("#contenedor").stop(true, true).animate({"opacity":"1"})
+				$("#terremoto").stop(true, true).fadeOut('slow');
+			});
+			
+			$("#etapa1").addClass("borde");
+			carro=$("#carro");
+			var altura=0;signo="+=";cien=100;
+			$("#isube").click(function(){
+				$('html').stop(true, true).scrollTo( '-=300px', 300, {queue:true,easing:'easeInOutExpo'} );
+			});
+			$("#ibaja").click(function(){
+				$('html').stop(true, true).scrollTo( '+=300px', 300, {queue:true,easing:'easeInOutExpo'} );
+			});
+			
+			$("#etapa1").click(function(){
+				$(carro).stop(true, true).animate({
+						"bottom": 10
+				}, 2000, "easeInOutBack",function(){
+					$("#img1").stop(true, true).slideDown();
+					$("#img1").siblings().stop(true, true).slideUp();
+					});
+				
+				$(this).addClass("borde");
+				$(this).siblings().removeClass("borde");
+				$("#cono1").stop(true, true).fadeIn();
+				$("#cono1").siblings().stop(true, true).fadeOut();
+			});
+			
+			$("#etapa2").click(function(){
+				$(carro).stop(true, true).animate({
+						"bottom": 289
+				}, 2000, "easeInOutBack",function(){
+					$("#img2").stop(true, true).slideDown();
+					$("#img2").siblings().stop(true, true).slideUp();
+					});
+				$(this).addClass("borde");
+				$(this).siblings().removeClass("borde");
+				$("#cono2").stop(true, true).fadeIn();
+				$("#cono2").siblings().stop(true, true).fadeOut();
+				$('html').delay(800).scrollTo( 1800, 2000, {queue:true} );
+			});
+			
+			$("#etapa3").click(function(){
+				$(carro).stop(true, true).animate({
+						"bottom": 679
+				}, 2000, "easeInOutBack",function(){
+					$("#img3").stop(true, true).slideDown();
+					$("#img3").siblings().stop(true, true).slideUp();
+					});
+				
+				$(this).addClass("borde");
+				$(this).siblings().removeClass("borde");
+				$("#cono3").stop(true, true).fadeIn();
+				$("#cono3").siblings().stop(true, true).fadeOut();
+				$('html').delay(800).scrollTo( 1400, 2100, {queue:true} );
+			});
+			
+
+			
+			
+			
+			$("#etapa6").click(function(){
+				$(carro).stop(true, true).animate({
+						"bottom": 1119
+				}, 2000, "easeInOutBack",function(){
+					$("#img9").stop(true, true).slideDown();
+					$("#img9").siblings().stop(true, true).slideUp();
+					});
+				
+				$(this).addClass("borde");
+				$(this).siblings().removeClass("borde");
+				$("#cono1").fadeOut();$("#cono2").fadeOut();$("#cono3").fadeOut();$("#cono4").fadeOut();
+				$('html').delay(800).scrollTo( 1020, 2100, {queue:true} );
+			});
+			
+			$("#etapa7").click(function(){
+				$(carro).stop(true, true).animate({
+						"bottom": 1379
+				}, 2000, "easeInOutBack",function(){
+					$("#img4").stop(true, true).slideDown();
+					$("#img4").siblings().stop(true, true).slideUp();
+					});
+				$("#cono1").fadeOut();$("#cono2").fadeOut();$("#cono3").fadeOut();$("#cono4").fadeOut();
+				$(this).addClass("borde");
+				$(this).siblings().removeClass("borde");
+			});
+			
+			$("#etapa8").click(function(){
+				$(carro).stop(true, true).animate({
+						"bottom": 1524
+				}, 2000, "easeInOutBack",function(){
+					$("#img5").stop(true, true).slideDown();
+					$("#img5").siblings().stop(true, true).slideUp();
+					});
+				$("#cono1").fadeOut();$("#cono2").fadeOut();$("#cono3").fadeOut();$("#cono4").fadeOut();
+				$(this).addClass("borde");
+				$(this).siblings().removeClass("borde");
+				
+				$('html').delay(800).scrollTo( 660,2000, {queue:true} );
+			});
+			
+			$("#etapa9").click(function(){
+				$(carro).stop(true, true).animate({
+						"bottom": 1674
+				}, 2000, "easeInOutBack",function(){
+					$("#img6").stop(true, true).slideDown();
+					$("#img6").siblings().stop(true, true).slideUp();
+					});
+				$("#cono1").fadeOut();$("#cono2").fadeOut();$("#cono3").fadeOut();$("#cono4").fadeOut();
+				$(this).addClass("borde");
+				$(this).siblings().removeClass("borde");
+				
+				$('html').delay(800).scrollTo( 440, 2000, {queue:true} );
+			});
+			
+			$("#etapa10").click(function(){
+				$(carro).stop(true, true).animate({
+						"bottom": 2186
+				}, 2000, "easeInOutBack",function(){
+					$("#img7").stop(true, true).slideDown();
+					$("#img7").siblings().stop(true, true).slideUp();
+					});
+				$("#cono1").fadeOut();$("#cono2").fadeOut();$("#cono3").fadeOut();$("#cono4").fadeOut();
+				$(this).addClass("borde");
+				$(this).siblings().removeClass("borde");
+				
+				$('html').delay(800).scrollTo( 150, 2100, {queue:true} );
+			});
+			
+			$("#etapa11").click(function(){
+				$(carro).stop(true, true).animate({
+						"bottom": 2386
+				}, 2000, "easeInOutBack",function(){
+					$("#img8").stop(true, true).slideDown();
+					$("#img8").siblings().stop(true, true).slideUp();
+					});
+				$("#cono1").fadeOut();$("#cono2").fadeOut();$("#cono3").fadeOut();$("#cono4").fadeOut();
+				$(this).addClass("borde");
+				$(this).siblings().removeClass("borde");
+				$('html').delay(800).scrollTo( 0, 2100, {queue:true} );
+			});
+		
+		
+		})
+			
+			
+	</script>
+	
+	<script>
+function manos()
+{
+	var mano=$("#mano");
+	$(mano).animate({"opacity":".4"},500,function(){
+		$(mano).animate({"opacity":"1"},500,function(){
+			manos();});
+		
+		});
+}
+		
+</script>
+</head>
+
+<body onload="javascript:window.scrollTo(0, document.body.scrollHeight);manos();">
+	<div id="contenedor">
+		<div id="carro"><img src="../imagenes/png/carro.png"></div>
+		<div id="etapa1"></div>
+		<div id="etapa2"></div>
+		<div id="etapa3"></div>
+		<div id="etapa6"></div>
+		<div id="etapa7"></div>
+		<div id="etapa8"></div>
+		<div id="etapa9"></div>
+		<div id="etapa10"></div>
+		<div id="etapa11"></div>
+		<div id="mano"></div>
+		<div id="sibli">
+			<div id="cono1"><img src="../imagenes/png/nucleo01.png"></div>
+			<div id="cono2"><img src="../imagenes/png/mantoinferior01.png"></div>
+			<div id="cono3"><img src="../imagenes/png/mantosuperior01.png"></div>
+			<div id="cono4"><img src="../imagenes/png/marron01.png"></div>
+		</div>
+			
+		
+		<div id="textos">
+			<div id="img1"><img src="../imagenes/png/nucleo.png"></div>
+			<div id="img2"><img src="../imagenes/png/textomantoinferior.png"></div>
+			<div id="img3"><img src="../imagenes/png/textomantosuperior.png"></div>
+			<div id="img4"><img src="../imagenes/png/textotroposfera.png"></div>
+			<div id="img5"><img src="../imagenes/png/textoestratosfera.png"></div>
+			<div id="img6"><img src="../imagenes/png/textomesosfera.png"></div>
+			<div id="img7"><img src="../imagenes/png/textotermosfera.png"></div>
+			<div id="img8"><img src="../imagenes/png/textoexosfera.png"></div>
+			<div id="img9">
+				<p id="parrafo2">>Placas Tectónicas</p>
+				<p id="parrafo4">>Maremotos</p>
+				<p id="parrafo5">>Terremotos</p>
+			</div>
+		</div>
+		<a href="../presentacion/index.html"><div id="inicio"></div></a>
+		<img class="imgsube" id="isube" src="../imagenes/png/flechasube.png">
+		<img class="imgbaja" id="ibaja" src="../imagenes/png/flechasube.png">
+		
+	</div>
+	<div id="placas">
+		<table align="center" border="0">
+			<tr>
+				<td align="center" >
+					<div id="placasi">
+						<p id="parrafo3">>>Definición<<</p>
+						<br>
+						<img style="display:none;margin-left:2px;margin-top:269px;" src="../imagenes/png/textoplacastectonicas.png" id="concepplaca">
+					</div>
+				</td>
+				<td valign="top" align="left">
+					<div id="cierrame">
+						<img src="../imagenes/png/cerrar.png" border="0">
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+		<div id="maremoto">
+		<table align="center" border="0">
+			<tr>
+				<td align="center" >
+					<div id="maremotosi">
+					</div>
+				</td>
+				<td valign="top" align="left">
+					<div id="cierrame2">
+						<img src="../imagenes/png/cerrar.png" border="0">
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+		<div id="terremoto">
+		<table align="center" border="0">
+			<tr>
+				<td align="center" >
+					<div id="terremotosi">
+					</div>
+				</td>
+				<td valign="top" align="left">
+					<div id="cierrame3">
+						<img src="../imagenes/png/cerrar.png" border="0">
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+</div>
+	
+
+</body>
+</html>

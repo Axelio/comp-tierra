@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Composición de la Tierra</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <script src="../js/jquery-1.7.2.min.js"></script>	
+    <script src="../js/easing.js" type="text/javascript"></script>
+
+    
+<script>
+function capas()
+{
+	var capa1=$("#capa1"),
+		capa2=$("#capa2"),
+		capa3=$("#capa3"),
+		capa4=$("#capa4"),
+		capa5=$("#capa5");
+	$(capa5).delay(800).fadeIn('slow',function(){
+		$(capa4).delay(500).fadeIn('slow',function(){
+			$(capa3).delay(500).fadeIn('slow',function(){
+				$(capa2).delay(500).fadeIn('slow',function(){
+					$(capa1).delay(500).fadeIn('slow',function(){
+						$(capa1).delay(500).fadeOut('slow',function(){
+							$(capa2).delay(500).fadeOut('slow',function(){
+								$(capa3).delay(500).fadeOut('slow',function(){
+									$(capa4).delay(500).fadeOut('slow',function(){
+										$(capa5).delay(500).fadeOut('slow',function(){
+											capas();
+											});
+										});
+									});
+								});
+							});
+						});
+					});
+				});
+			});
+		});
+}
+	
+</script>
+</head>
+
+<body onload="capas()">
+	<div id="contenedorindex">
+		<div id="tituloindex"></div>
+		<div id="planetaindex"></div>
+		<div id="capa5"></div>
+		<div id="capa4"></div>
+		<div id="capa3"></div>
+		<div id="capa2"></div>
+		<div id="capa1"></div>
+		<a href="../paginas/pantalla1.html"><div id="entrar"><p id="parrafo" style="position:absolute;top:250px;left:300px;">Entrar</p></div></a>
+	</div>
+</body>
+</html>
