@@ -1,0 +1,704 @@
+#contenedor
+{
+	position:relative;
+	width: 1024px;
+	height:2667px;
+	margin: auto;
+	background:  url(../imagenes/png/fondo.png) no-repeat; 
+} 
+
+#contenedorindex
+{
+	position:relative;
+	width: 1024px;
+	height:572px;
+	margin: auto;
+	background:  url(../imagenes/png/capa0101.png) no-repeat; 
+} 
+
+#placas
+{
+		
+	top: 20px;
+	position: fixed;
+	width: 1024px;
+	height:572px;
+	margin: auto;
+	display:none;
+	z-index:100;
+} 
+
+#maremoto
+{
+		
+	top: 20px;
+	position: fixed;
+	width: 1024px;
+	height:572px;
+	margin: auto;
+	display:none;
+	z-index:100;
+} 
+
+#terremoto
+{
+		
+	top: 20px;
+	position: fixed;
+	width: 1024px;
+	height:572px;
+	margin: auto;
+	display:none;
+	z-index:100;
+} 
+
+#pista
+{
+	position:absolute;
+	width:100px;
+	height:1144px;
+	bottom:0px;
+	left:0px;
+	background-color:#F07A7A;
+	opacity:.6;
+	z-index:1;
+}
+
+#carro
+{
+	position:absolute;
+	width:50px;
+	height:200px;
+	bottom:10px;
+	left:0px;
+	z-index:2;
+}
+
+
+body 
+{ 
+	margin: 0px 0px 0px 0px;
+	overflow:hidden;
+
+}
+
+
+#etapa1
+{
+	position:absolute;
+	width:35px;
+	height:35px;
+	bottom:0px;
+	left:47px;
+	cursor:pointer;
+	
+
+}
+
+#etapa2
+{
+	position:absolute;
+	width:35px;
+	height:35px;
+	bottom:295px;
+	left:47px;
+	cursor:pointer;
+}
+
+#etapa3
+{
+	position:absolute;
+	width:35px;
+	height:35px;
+	bottom:688px;
+	left:47px;
+	cursor:pointer;
+	
+
+}
+
+
+
+
+
+#etapa6
+{
+	position:absolute;
+	width:35px;
+	height:35px;
+	bottom:1126px;
+	left:47px;
+	cursor:pointer;
+	
+
+}
+
+#etapa7
+{
+	position:absolute;
+	width:35px;
+	height:35px;
+	bottom:1380px;
+	left:47px;
+	cursor:pointer;
+	
+
+}
+
+#etapa8
+{
+	position:absolute;
+	width:35px;
+	height:35px;
+	bottom:1530px;
+	left:47px;
+	cursor:pointer;
+	
+
+}
+
+#etapa9
+{
+	position:absolute;
+	width:35px;
+	height:35px;
+	bottom:1669px;
+	left:47px;
+	cursor:pointer;
+	
+
+}
+
+#etapa10
+{
+	position:absolute;
+	width:35px;
+	height:35px;
+	bottom:2194px;
+	left:47px;
+	cursor:pointer;
+	
+
+}
+
+#etapa11
+{
+	position:absolute;
+	width:35px;
+	height:35px;
+	bottom:2389px;
+	left:47px;
+	cursor:pointer;
+	
+
+}
+
+
+
+
+.imgsube {
+  position:fixed;
+  	bottom:90px;
+	left:97%;
+	cursor:pointer;
+	z-index:99;
+	}
+	
+.imgbaja{
+	position:fixed;
+  	bottom:10px;
+	left:97%;
+	cursor:pointer;
+	-moz-transform:rotate(180deg);
+	z-index:99;
+} 
+
+
+.borde
+{
+
+border:2px solid red;
+
+}
+
+#cono1
+{
+	position:absolute;
+	width:193px;
+	height:314px;
+	bottom:1px;
+	left:461px;
+	z-index:3;
+	
+
+
+
+}
+
+#cono2
+{
+	position:absolute;
+	width:444px;
+	height:394px;
+	bottom:312px;
+	left:322px;
+	z-index:3;
+	display:none;
+
+
+
+}
+
+#cono3
+{
+	position:absolute;
+	width:744px;
+	height:468px;
+	bottom:696px;
+	left:160px;
+	z-index:3;
+	display:none;
+
+
+
+}
+
+#cono4
+{
+	position:absolute;
+	width:745px;
+	height:89px;
+	bottom:1078px;
+	left:155px;
+	z-index:3;
+	display:none;
+
+
+
+}
+
+
+#img1
+{
+	position:absolute;
+	width:672px;
+	height:202px;
+	bottom:60px;
+	left:220px;
+	z-index:3;
+
+
+
+}
+
+#img2
+{
+	position:absolute;
+	width:665px;
+	height:255px;
+	bottom:380px;
+	left:215px;
+	z-index:3;
+	display:none;
+
+
+}
+
+#img3
+{
+	position:absolute;
+	width:665px;
+	height:222px;
+	bottom:800px;
+	left:202px;
+	z-index:3;
+	display:none;
+
+
+}
+
+#img4
+{
+	position:absolute;
+	width:664px;
+	height:151px;
+	bottom:1280px;
+	left:120px;
+	z-index:3;
+	display:none;
+
+
+}
+
+#img5
+{
+	position:absolute;
+	width:664px;
+	height:102px;
+	bottom:1460px;
+	left:120px;
+	z-index:3;
+	display:none;
+
+
+}
+
+#img6
+{
+	position:absolute;
+	width:664px;
+	height:130px;
+	bottom:1630px;
+	left:120px;
+	z-index:3;
+	display:none;
+
+
+}
+
+#img7
+{
+	position:absolute;
+	width:664px;
+	height:108px;
+	bottom:2140px;
+	left:110px;
+	z-index:3;
+	display:none;
+
+
+}
+
+#img8
+{
+	position:absolute;
+	width:664px;
+	height:108px;
+	bottom:2340px;
+	left:90px;
+	z-index:3;
+	display:none;
+
+
+}
+
+
+#img9
+{
+	position:absolute;
+	width:665px;
+	height:453px;
+	bottom:1055px;
+	left:120px;
+	z-index:3;
+	display:none;
+	background:  url(../imagenes/png/textocorteza01.png) no-repeat;
+
+}
+
+#reproductor {
+   position:absolute;
+   left: 10px;
+   top:250px;
+   width: 300px;
+   height:30px;
+   display:none;
+
+}
+
+
+#inicio{padding:4px;cursor:pointer;position:absolute;width:70px;height:70px;bottom:0px;right:20px;background:url(../imagenes/png/botoninicio.png) no-repeat;z-index:15;}
+
+#inicio:hover{cursor:pointer;position:absolute;width:70px;height:70px;bottom:0px;right:20px;background:url(../imagenes/png/botoninicio2.png) no-repeat;}
+
+
+#tituloindex
+{
+   position:absolute;
+   left: 0px;
+   top:0px;
+   width: 1024px;
+   height:572px;
+	background:  url(../imagenes/png/nombre.png) no-repeat;
+	z-index:7;
+
+}
+
+#planetaindex
+{
+   position:absolute;
+   left: 0px;
+   top:0px;
+   width: 1024px;
+   height:572px;
+   background:  url(../imagenes/png/capa0201.png) no-repeat;
+z-index:6;
+
+}
+
+#capa1 {
+   position:absolute;
+   left: 0px;
+   top:0px;
+   width: 1024px;
+   height:572px;
+   background:  url(../imagenes/png/capa01.png) no-repeat;
+   z-index:1;
+display:none;
+}
+
+#capa2 {
+   position:absolute;
+   left: 0px;
+   top:0px;
+   width: 1024px;
+   height:572px;
+   background:  url(../imagenes/png/capa02.png) no-repeat;
+display:none;
+   z-index:2;
+
+}
+
+#capa3 {
+   position:absolute;
+   left: 0px;
+   top:0px;
+   width: 1024px;
+   height:572px;
+   background:  url(../imagenes/png/capa03.png) no-repeat;
+ display:none;
+   z-index:3;
+
+}
+
+#capa4 {
+   position:absolute;
+   left: 0px;
+   top:0px;
+   width: 1024px;
+   height:572px;
+   background:  url(../imagenes/png/capa04.png) no-repeat;
+ display:none;
+	z-index:4;
+}
+
+#capa5 {
+   position:absolute;
+   left: 0px;
+   top:0px;
+   width: 1024px;
+   height:572px;
+   background:  url(../imagenes/png/capa05.png) no-repeat;
+  display:none;
+	z-index:5;
+}
+
+#entrar
+{
+   position:absolute;
+   right: 50px;
+   bottom:50px;
+   width: 500px;
+   height:530px;
+	z-index:9;
+	cursor:pointer;
+
+}
+
+#parrafo
+{
+	font-family: sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 36px;
+	word-spacing: normal;
+	letter-spacing: 0.1ex;
+	text-decoration: none;
+	text-transform: none;
+	color:#000;
+	text-shadow:0 0 20px yellow ;
+
+}
+
+
+#parrafo:hover{color:#30DA23;}
+
+
+#parrafo2
+{
+	position:absolute;
+	font-family: sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 14px;
+	word-spacing: normal;
+	letter-spacing: 0.1ex;
+	text-decoration: none;
+	text-transform: none;
+	color:#000;
+	text-shadow:0 0 20px yellow ;
+	left:215px;
+	top:345px;
+	cursor:pointer;
+	border: 1px solid #000;
+	background-color:#D9D4D4;
+	padding:2px;
+}
+
+
+#parrafo2:hover{color:#30DA23;}
+
+
+#cierrame
+{
+position:relative;
+cursor:pointer;
+opacity:.8;
+}
+
+#cierrame:hover{opacity:1;}
+
+#cierrame2
+{
+position:relative;
+cursor:pointer;
+opacity:.8;
+}
+
+#cierrame2:hover{opacity:1;}
+
+#cierrame3
+{
+position:relative;
+cursor:pointer;
+opacity:.8;
+}
+
+#cierrame3:hover{opacity:1;}
+
+
+#placasi
+{
+position:relative;
+width:674px;
+height:505px;
+background:  url(../imagenes/png/placas.png) center center no-repeat;
+
+
+}
+
+#maremotosi
+{
+position:relative;
+width:606px;
+height:395px;
+background:  url(../imagenes/png/maremoto.png) center center no-repeat;
+
+
+}
+
+#terremotosi
+{
+position:relative;
+width:606px;
+height:395px;
+background:  url(../imagenes/png/terremoto.png) center center no-repeat;
+
+
+}
+
+
+#parrafo3
+{
+	position:absolute;
+	font-family: sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 16px;
+	word-spacing: normal;
+	letter-spacing: 0.1ex;
+	text-decoration: none;
+	text-transform: none;
+	color:#000;
+	text-shadow:0 0 20px yellow ;
+	left:18px;
+	bottom:5px;
+	cursor:pointer;
+	border: 1px solid #000;
+	background-color:#D9D4D4;
+	padding:4px;
+}
+
+
+#parrafo3:hover{color:#30DA23;}
+
+
+#parrafo4
+{
+	position:absolute;
+	font-family: sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 14px;
+	word-spacing: normal;
+	letter-spacing: 0.1ex;
+	text-decoration: none;
+	text-transform: none;
+	color:#000;
+	text-shadow:0 0 20px yellow ;
+	left:240px;
+	top:371px;
+	cursor:pointer;
+	border: 1px solid #000;
+	background-color:#D9D4D4;
+	padding:4px;
+}
+
+
+#parrafo4:hover{color:#30DA23;}
+
+#parrafo5
+{
+	position:absolute;
+	font-family: sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 14px;
+	word-spacing: normal;
+	letter-spacing: 0.1ex;
+	text-decoration: none;
+	text-transform: none;
+	color:#000;
+	text-shadow:0 0 20px yellow ;
+	left:239px;
+	top:401px;
+	cursor:pointer;
+	border: 1px solid #000;
+	background-color:#D9D4D4;
+	padding:4px;
+}
+
+
+#parrafo5:hover{color:#30DA23;}
+
+
+#mano
+{
+   position:absolute;
+   left: 80px;
+   bottom:300px;
+   width: 57px;
+   height:36px;
+
+background: url(../imagenes/png/mano01.png) no-repeat;
+
+  
+	z-index:10;
+
+
+}
